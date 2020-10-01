@@ -1,27 +1,43 @@
 body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
-      color: #008080;
+      color: #a5acaf;
   }
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #008080;
+      color: #004C54;
       font-weight: 600;
       margin-bottom: 30px;
   }
+  h3 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+  
   h4 {
       font-size: 19px;
       line-height: 1.375em;
-      color: #008080;
+      color: #004C54;
       font-weight: 400;
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #008080;
-      color: #fff;
+      background-color: #a5acaf;
+      color: #004C54;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
+  }
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 960px;
   }
   .container-fluid {
       padding: 60px 50px;
@@ -58,11 +74,14 @@ body {
       background-color: #f4511e;
   }
   .item h4 {
+      width: 100%;
       font-size: 19px;
       line-height: 1.375em;
       font-weight: 400;
       font-style: italic;
       margin: 70px 0;
+      max-height: 960px;
+
   }
   .item span {
       font-style: normal;
@@ -82,7 +101,7 @@ body {
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: #a5acaf !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -107,7 +126,7 @@ body {
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color: #a5acaf;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -117,10 +136,10 @@ body {
       font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+      color: #004C54 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: #000000 !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -180,7 +199,7 @@ body {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #004C54;
   border: none;
   color: #FFFFFF;
   text-align: center;
